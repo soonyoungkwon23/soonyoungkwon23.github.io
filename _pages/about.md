@@ -28,17 +28,11 @@ latest_posts:
 ---
 
 
-# About Me
+Welcome to my engineering portfolio! Check out some of my projects [**HERE**](https://soonyoungkwon23.github.io/projects/).
 
-Welcome to my engineering portfolio! Check out some of my projects [**HERE**](#).
-
-My name is **Soon Young Kwon** (just **Young** is fine!), and I’m a **Mechanical Engineering & Materials Science** student at [**Harvey Mudd College**](https://www.hmc.edu/) with a passion for **robotics**, **automotives**, **consumable tech**, **human-centered design**, and **humanitarian technology**.
+My name is **`Soon Young Kwon`** (just **Young** is fine!), and I’m a **Mechanical Engineering & Materials Science** student at [**Harvey Mudd College**](https://www.hmc.edu/) with a passion for **robotics**, **automotives**, **consumable tech**, **human-centered design**, and **humanitarian technology**.
 
 I see engineering as a bridge between theory and lived experience—a powerful tool for solving real problems and creating tangible change in our quality of life. I'm currently focused on applying my skills through **research**, **hands-on projects**, and **internships** that challenge me to think critically and design with purpose.
-
----
-
-## 🛠 Skills & Focus
 
 I blend **visual design** with **rigorous analysis**, aiming to build systems and products that are not only functional but intuitive and elegant.
 
@@ -46,7 +40,5 @@ I blend **visual design** with **rigorous analysis**, aiming to build systems an
 - **Simulation & Analysis**: ANSYS and MATLAB — for thermal, stress, and fluid simulations  
 - **Programming**: Python, JavaScript, HTML/CSS — for front-end/back-end development, automation scripts, and machine learning  
 - **Digital Fabrication**: CNC milling, 3D printing (FDM/SLA), and composite layups — used in lab and personal projects  
-
----
 
 When I’m not engineering, I love to listen to [**Modern Wisdom**](https://open.spotify.com/show/0XrOqvxlqQI6bmdYHuIVnr), drink matcha with friends, and go for a swim ([**SwimCloud**](https://www.swimcloud.com/swimmer/1996834/))!
