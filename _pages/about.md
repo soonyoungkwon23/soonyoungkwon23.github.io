@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: “Focus. Intense one-hundred percent focus. This is what’s going to get you through.”
+subtitle: *“Focus. Intense one-hundred percent focus. This is what’s going to get you through.”*
 
 profile:
   align: right
