@@ -41,4 +41,4 @@ I blend **visual design** with **rigorous analysis**, aiming to build systems an
 - **Programming**: Python, JavaScript, HTML/CSS — for front-end/back-end development, automation scripts, and machine learning  
 - **Digital Fabrication**: CNC milling, 3D printing (FDM/SLA), and composite layups — used in lab and personal projects  
 
-When I’m not engineering, I love to listen to [**Modern Wisdom**](https://open.spotify.com/show/0XrOqvxlqQI6bmdYHuIVnr), drink matcha with friends, and go for a swim ([**SwimCloud**](https://www.swimcloud.com/swimmer/1996834/))!
+When I’m not engineering, I love to listen to [**Modern Wisdom**](https://open.spotify.com/show/0XrOqvxlqQI6bmdYHuIVnr), drink matcha with friends, and go for a [**swim**](https://www.swimcloud.com/swimmer/1996834/)!
