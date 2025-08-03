@@ -194,6 +194,7 @@ exclude:
   - _news/
   - pages/publications.md
   - _bibliography/
+  - pages/repositories.md
 keep_files:
   - CNAME
   - .nojekyll
