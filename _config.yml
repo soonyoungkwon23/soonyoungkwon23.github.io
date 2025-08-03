@@ -193,6 +193,7 @@ exclude:
   - vendor
   - _news/
   - pages/publications.md
+  - _bibliography/
 keep_files:
   - CNAME
   - .nojekyll
