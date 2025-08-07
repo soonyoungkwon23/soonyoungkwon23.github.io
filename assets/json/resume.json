@@ -65,45 +65,37 @@
   ],
   "certificates": [
     {
+      "name": "International Baccalaureate Diploma",
+      "date": "2023-06",
+      "issuer": "International BAccalaureate (IB)",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Complete Blender Creater: 3D Modelling",
+      "date": "2025-06-16",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-5e517326-d2b3-49f2-b8ca-577801f64c44/",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Agile Project Management",
+      "date": "2024-12-01",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/records/SU2R2UP8KVN1",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Google Project Management Professional Certificate",
+      "date": "2024-12-01",
+      "issuer": "Coursera",
+      "url": "https://www.credly.com/badges/830bc1f6-85c4-4f3a-8362-e82a2d102c69/linked_in_profile",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
       "name": "Full-Stack Engineer Career Path",
       "date": "2025-05-22",
       "issuer": "Codecademy",
       "url": "https://www.codecademy.com/profiles/SYK23/certificates/ffd0f42cce1a44e9a0108b365047a0a6",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
