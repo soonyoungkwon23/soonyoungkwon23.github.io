@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-resume-cv",
           title: "Resume/CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "This page is a snapshot of my journey so far — from the classes I’ve taken and projects I’ve worked on to the skills and experiences I’m building along the way. Feel free to download my full resume as a PDF using the button above if you want to take a closer look!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
