@@ -5,7 +5,7 @@ title: Resume/CV
 nav: true
 nav_order: 5
 cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: This page is a snapshot of my journey so far — from the classes I’ve taken and projects I’ve worked on to the skills and experiences I’m building along the way. Feel free to download my full resume as a PDF using the button above if you want to take a closer look!
 toc:
   sidebar: left
 ---
