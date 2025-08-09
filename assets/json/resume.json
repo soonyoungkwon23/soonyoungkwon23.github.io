@@ -64,30 +64,30 @@
       "url": ""
     },
     {
-    "name": "Universal Antenna Remounting System - E4 Engineering Project",
-    "summary": "Designed and prototyped a universal antenna remounting system for satellite and drone GPS tracking, enabling precise integration with a motorized telescope mount.",
-    "highlights": [
-      "Engineered system to achieve ±0.1mm positional accuracy using GD&T-compliant tolerancing",
-      "Developed antenna brackets via SolidWorks, optimizing for lightweight CFRP 3D printed parts and high-strength CNC-machined aluminum components",
-      "Managed project schedule and team coordination using Gantt charts, daily stand-ups, and detailed meeting documentation",
-      "Prototyped and tested mounting system ensuring seamless, repeatable repositioning for enhanced GPS tracking reliability"
-    ],
-    "startDate": "2024-01-16",
-    "endDate": "2024-05-06",
-    "url": ""
+      "name": "Universal Antenna Remounting System - E4 Engineering Project",
+      "summary": "Designed and prototyped a universal antenna remounting system for satellite and drone GPS tracking, enabling precise integration with a motorized telescope mount.",
+      "highlights": [
+        "Engineered system to achieve ±0.1mm positional accuracy using GD&T-compliant tolerancing",
+        "Developed antenna brackets via SolidWorks, optimizing for lightweight CFRP 3D printed parts and high-strength CNC-machined aluminum components",
+        "Managed project schedule and team coordination using Gantt charts, daily stand-ups, and detailed meeting documentation",
+        "Prototyped and tested mounting system ensuring seamless, repeatable repositioning for enhanced GPS tracking reliability"
+      ],
+      "startDate": "2024-01-16",
+      "endDate": "2024-05-06",
+      "url": ""
     },
     {
-    "name": "Autonomous Underwater Vehicle Marker Dropper - Mudd Sub",
-    "summary": "Designed and fabricated a butterfly-shaped rotating marker dropper mechanism for an Autonomous Underwater Vehicle competing in the international RoboSub competition.",
-    "highlights": [
-      "Developed CAD models of the marker dropper in SolidWorks, applying precise mechanical drawings to ensure compatibility with AUV chassis and competition constraints",
-      "Prototyped components via FDM 3D printing using PLA and PETG materials to balance buoyancy and durability under underwater conditions",
-      "Performed iterative testing in pool environments to validate release timing, minimize hydrodynamic drag, and ensure repeatable performance"
-    ],
-    "startDate": "2023-08-01",
-    "endDate": "2024-05-31",
-    "url": ""
-  }
+      "name": "Autonomous Underwater Vehicle Marker Dropper - Mudd Sub",
+      "summary": "Designed and fabricated a butterfly-shaped rotating marker dropper mechanism for an Autonomous Underwater Vehicle competing in the international RoboSub competition.",
+      "highlights": [
+        "Developed CAD models of the marker dropper in SolidWorks, applying precise mechanical drawings to ensure compatibility with AUV chassis and competition constraints",
+        "Prototyped components via FDM 3D printing using PLA and PETG materials to balance buoyancy and durability under underwater conditions",
+        "Performed iterative testing in pool environments to validate release timing, minimize hydrodynamic drag, and ensure repeatable performance"
+      ],
+      "startDate": "2023-08-01",
+      "endDate": "2024-05-31",
+      "url": ""
+    }
   ],
   "awards": [
     {
