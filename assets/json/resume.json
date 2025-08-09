@@ -51,12 +51,17 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Hybrid-Powered Go-Kart - Mudd Automotive Club",
+      "summary": "Engineered a hybrid-powered go-kart integrating a Yamaha SRX 440 IC engine with four 12V electric motors, enabling combined power delivery and regenerative braking.",
+      "highlights": [
+        "Designed and fabricated chassis using TIG welding of 4130 chromoly steel tubing for high strength-to-weight ratio",
+        "Machined precision aluminum 6061 brackets via CNC to ensure tight mechanical tolerances and secure component mounting",
+        "Applied SOLIDWORKS for detailed 3D modeling, assembly simulations, and technical drawing generation",
+        "Integrated hybrid drivetrain control for seamless transition between internal combustion engine and electric motor power"
+      ],
+      "startDate": "2023-08-01",
+      "endDate": "Present",
+      "url": ""
     }
   ],
   "awards": [
