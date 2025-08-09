@@ -102,7 +102,7 @@
     {
       "name": "International Baccalaureate Diploma",
       "date": "2023-06",
-      "issuer": "International BAccalaureate (IB)",
+      "issuer": "International Baccalaureate (IB)",
       "icon": "fa-solid fa-clipboard-check"
     },
     {
@@ -136,22 +136,88 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Mechanical Engineering & Design",
+      "level": "Advanced",
+      "icon": "fa-solid fa-cogs",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Product Design",
+        "Mechanical Drawings",
+        "Technical Drawing",
+        "Geometric Dimensioning & Tolerancing",
+        "Prototyping",
+        "3D Modeling",
+        "3D Printing",
+        "Welding",
+        "CNC Manufacturing",
+        "AutoCAD",
+        "SolidWorks",
+        "Mechanical Design",
+        "Automotive Engineering"
+      ]
+    },
+    {
+      "name": "3D Modeling & Animation",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-object-group",
+      "keywords": [
+        "Blender",
+        "3D Rendering",
+        "UV Mapping",
+        "Computer Animation",
+        "Complete Blender Creator"
+      ]
+    },
+    {
+      "name": "Programming & Data Analysis",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "SQL",
+        "Data Analysis"
+      ]
+    },
+    {
+      "name": "Project & Operations Management",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-tasks",
+      "keywords": [
+        "Project Management",
+        "Kanban Board",
+        "Inventory Tracking",
+        "Production Analysis",
+        "Lean Manufacturing",
+        "Strategic Planning",
+        "Event Planning",
+        "Leadership",
+        "Organization Skills",
+        "Pro-active Leadership"
+      ]
+    },
+    {
+      "name": "Marketing & Communications",
+      "level": "Beginner",
+      "icon": "fa-solid fa-bullhorn",
+      "keywords": [
+        "Social Media Marketing",
+        "Marketing",
+        "Adobe Illustrator"
+      ]
+    },
+    {
+      "name": "Athletics & Team Leadership",
+      "level": "Advanced",
+      "icon": "fa-solid fa-swimmer",
+      "keywords": [
+        "Swimming",
+        "Team Captain",
+        "Coach"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Korean",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -159,19 +225,60 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Limited Proficiency",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Limited Proficiency",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Mechanical Engineering",
+      "icon": "fa-solid fa-gears",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Design",
+        "Material Science",
+        "Manufacturing",
+        "Prototyping"
+      ]
+    },
+    {
+      "name": "Software & AI",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Machine Learning",
+        "Neural Networks",
+        "Python",
+        "Data Analysis"
+      ]
+    },
+    {
+      "name": "STEM Advocacy",
+      "icon": "fa-solid fa-hands-helping",
+      "keywords": [
+        "Women in STEM",
+        "Technical Outreach",
+        "Digital Media"
+      ]
+    },
+    {
+      "name": "Athletics",
+      "icon": "fa-solid fa-swimmer",
+      "keywords": [
+        "Competitive Swimming",
+        "Coaching",
+        "Team Leadership"
       ]
     }
   ]
