@@ -35,13 +35,14 @@
   ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "SEW Eurodrive, Suzhou, China",
+      "position": "Engineering Management Intern",
+      "url": "https://www.seweurodrive.com/home.html",
+      "startDate": "2023-05-16",
+      "endDate": "2023-08-04",
+      "summary": "• Increased automotive assembly line efficiency by 10% by implementing lean manufacturing principles (Kanban) and optimizing material flow using time-motion studies
+• Collaborated with production managers to implement a real-time inventory tracking system, reducing stock shortages by 10% and ensuring JIT material availability",
+      "highlights": ["Internship"]
     }
   ],
   "projects": [
