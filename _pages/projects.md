@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: "Projects powered by curiosity, 3D models, and too much <a href='https://www.celsius.com/' target='_blank' rel='noopener noreferrer'>Celsius</a>."
 nav: true
 nav_order: 3
 display_categories: [work, fun]
