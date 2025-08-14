@@ -5,43 +5,44 @@ description: High-precision GPS antenna mount for satellite and drone tracking
 img: assets/img/e4-hero.jpg
 importance: 1
 category: Engineering Projects @ HMC
-related_publications: true
+related_publications: false
 ---
 
 ## Overview
 
-Developed a **universal antenna remounting system** to enhance GPS tracking precision for both **satellite and drone applications**. The design integrates seamlessly with a **motorized telescope mount**, enabling **reliable, repeatable repositioning** with a positional accuracy of **±0.1 mm**.
+GPS tracking is only as good as the mount it rests on — so I built one that leaves no room for “close enough.”  
+The **Universal Antenna Remounting System** integrates seamlessly with a motorized telescope mount and achieves **±0.1 mm positional accuracy** with reliable, repeatable alignment every time.
 
 ---
 
 ## Problem Statement
 
-High-precision GPS tracking often suffers from:
+Existing mounts often fail to combine universality, durability, and high-precision re-alignment.  
+The common problems:
 
-- Limited compatibility between antenna types
-- Difficulty in re-aligning after removal
-- Mechanical drift degrading tracking accuracy
+- Only fitting specific antenna models  
+- Time-consuming, inconsistent repositioning  
+- Mechanical drift that undermines GPS accuracy  
 
-Our solution: a **modular, lightweight, and highly accurate remounting system** that works across varied platforms without compromising stability.
+The goal: design a **modular, lightweight, and robust** system that works across multiple antenna types while delivering consistent, precision alignment.
 
 ---
 
 ## Design Requirements
 
-- **Positional Accuracy:** ±0.1 mm repeatability
-- **Universal Compatibility:** Adjustable to multiple antenna form factors
-- **Lightweight Structure:** CFRP for weight savings
-- **Strength & Durability:** CNC-machined aluminum for load-bearing parts
-- **GD&T Compliance:** Consistent manufacturing tolerances
+- **Precision:** ±0.1 mm repeatability  
+- **Universal Compatibility:** Adjustable to multiple antenna form factors  
+- **Lightweight & Strong:** CFRP for weight savings, CNC aluminum for high strength  
+- **GD&T Compliance:** Ensured consistent manufacturing and assembly tolerances
 
 ---
 
 ## Design & Development Process
 
-- Concept sketches and geometry evaluation for balance & stiffness
-- **SolidWorks CAD modeling** with rapid disassembly features
-- **GD&T tolerancing** for critical alignment surfaces
-- **FEA analysis** to minimize vibration-induced drift
+- Sketched and evaluated geometries for stiffness and stability  
+- Created **SolidWorks CAD models** with modular, quick-disassembly assemblies  
+- Applied **GD&T tolerancing** to critical alignment surfaces  
+- Performed **FEA analysis** to confirm rigidity and reduce vibration effects
 
 <!--
 <div class="row">
@@ -56,7 +57,7 @@ Our solution: a **modular, lightweight, and highly accurate remounting system** 
   </div>
 </div>
 <div class="caption">
-  CAD renders and FEA simulations showcasing the bracket geometry, exploded assembly view, and structural performance under simulated loads.
+  CAD renders and FEA results showing structural performance and assembly design.
 </div>
 -->
 
@@ -64,9 +65,9 @@ Our solution: a **modular, lightweight, and highly accurate remounting system** 
 
 ## Prototyping & Fabrication
 
-- **CFRP 3D printing** for lightweight antenna brackets
-- **CNC machining** of high-strength aluminum interfaces
-- Quick-release fasteners for rapid deployment
+- **CFRP 3D printing** for lightweight antenna brackets  
+- **CNC machining** of aluminum components for durability  
+- Integrated quick-release fasteners for faster field assembly
 
 <!--
 <div class="row">
@@ -78,7 +79,7 @@ Our solution: a **modular, lightweight, and highly accurate remounting system** 
   </div>
 </div>
 <div class="caption">
-  Fabrication process: CFRP parts printed for weight savings; aluminum components CNC-machined for high-strength performance.
+  CFRP for lightweight performance; CNC aluminum for structural reliability.
 </div>
 -->
 
@@ -86,9 +87,9 @@ Our solution: a **modular, lightweight, and highly accurate remounting system** 
 
 ## Testing & Validation
 
-- Verified **±0.1 mm positional accuracy** using a coordinate measuring machine (CMM)
-- Conducted repeatability and environmental condition tests
-- Improved GPS signal stability in field trials
+- Verified **±0.1 mm accuracy** using a coordinate measuring machine (CMM)  
+- Conducted repeatability and environmental durability tests  
+- Field trials showed improved GPS lock stability and consistent alignment
 
 <!--
 <div class="row justify-content-sm-center">
@@ -100,7 +101,7 @@ Our solution: a **modular, lightweight, and highly accurate remounting system** 
   </div>
 </div>
 <div class="caption">
-  CMM testing setup and recorded accuracy results showing consistent sub-millimeter repeatability.
+  CMM verification confirmed repeatability within ±0.1 mm tolerance.
 </div>
 -->
 
@@ -108,22 +109,21 @@ Our solution: a **modular, lightweight, and highly accurate remounting system** 
 
 ## Project Management
 
-- Created and tracked a **Gantt chart** for deadlines
-- Led **daily stand-up meetings** and produced detailed design documentation
-- Coordinated fabrication and testing schedules for on-time delivery
+- Maintained a **Gantt chart** for timelines and deliverables  
+- Led **daily stand-up meetings** to coordinate progress  
+- Documented decisions and changes for clear project tracking
 
 ---
 
 ## Final Outcome
 
-The system was successfully deployed in test scenarios, demonstrating:
-
-- Seamless integration with multiple GPS antenna models
-- Repeatable sub-millimeter alignment
-- Significant improvement in GPS tracking reliability
+- Integrated seamlessly with various GPS antenna models  
+- Achieved consistent sub-millimeter alignment  
+- Enhanced GPS tracking reliability for both satellite and drone applications
 
 ---
 
 ## Reflections & Lessons Learned
 
-This project strengthened my expertise in **precision mechanical design**, **GD&T applications**, and **cross-disciplinary collaboration**. In future iterations, I would explore integrating **automated alignment feedback** using onboard sensors.
+This project refined my skills in **precision mechanical design**, **GD&T implementation**, and **team coordination**.  
+If expanded in the future, I would explore adding **automated alignment feedback** to further improve setup speed and accuracy.
