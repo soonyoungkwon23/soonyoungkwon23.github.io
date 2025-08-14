@@ -1,81 +1,129 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Universal Antenna Remounting System
+description: High-precision GPS antenna mount for satellite and drone tracking
+img: assets/img/e4-hero.jpg
 importance: 1
-category: work
+category: Engineering Projects @ HMC
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Developed a **universal antenna remounting system** to enhance GPS tracking precision for both **satellite and drone applications**. The design integrates seamlessly with a **motorized telescope mount**, enabling **reliable, repeatable repositioning** with a positional accuracy of **±0.1 mm**.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
+## Problem Statement
+
+High-precision GPS tracking often suffers from:
+
+- Limited compatibility between antenna types
+- Difficulty in re-aligning after removal
+- Mechanical drift degrading tracking accuracy
+
+Our solution: a **modular, lightweight, and highly accurate remounting system** that works across varied platforms without compromising stability.
+
+---
+
+## Design Requirements
+
+- **Positional Accuracy:** ±0.1 mm repeatability
+- **Universal Compatibility:** Adjustable to multiple antenna form factors
+- **Lightweight Structure:** CFRP for weight savings
+- **Strength & Durability:** CNC-machined aluminum for load-bearing parts
+- **GD&T Compliance:** Consistent manufacturing tolerances
+
+---
+
+## Design & Development Process
+
+- Concept sketches and geometry evaluation for balance & stiffness
+- **SolidWorks CAD modeling** with rapid disassembly features
+- **GD&T tolerancing** for critical alignment surfaces
+- **FEA analysis** to minimize vibration-induced drift
+
+<!--
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/e4-cad1.jpg" title="CAD model - front view" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/e4-cad2.jpg" title="CAD model - exploded view" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/e4-fea.jpg" title="FEA analysis results" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+  CAD renders and FEA simulations showcasing the bracket geometry, exploded assembly view, and structural performance under simulated loads.
 </div>
+-->
+
+---
+
+## Prototyping & Fabrication
+
+- **CFRP 3D printing** for lightweight antenna brackets
+- **CNC machining** of high-strength aluminum interfaces
+- Quick-release fasteners for rapid deployment
+
+<!--
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/e4-cfrp.jpg" title="CFRP part printing" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/e4-cnc.jpg" title="CNC machining process" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+  Fabrication process: CFRP parts printed for weight savings; aluminum components CNC-machined for high-strength performance.
 </div>
+-->
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Testing & Validation
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Verified **±0.1 mm positional accuracy** using a coordinate measuring machine (CMM)
+- Conducted repeatability and environmental condition tests
+- Improved GPS signal stability in field trials
 
-{% raw %}
-
-```html
+<!--
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/e4-test.jpg" title="CMM measurement process" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/e4-chart.jpg" title="Accuracy measurement chart" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  CMM testing setup and recorded accuracy results showing consistent sub-millimeter repeatability.
+</div>
+-->
 
-{% endraw %}
+---
+
+## Project Management
+
+- Created and tracked a **Gantt chart** for deadlines
+- Led **daily stand-up meetings** and produced detailed design documentation
+- Coordinated fabrication and testing schedules for on-time delivery
+
+---
+
+## Final Outcome
+
+The system was successfully deployed in test scenarios, demonstrating:
+
+- Seamless integration with multiple GPS antenna models
+- Repeatable sub-millimeter alignment
+- Significant improvement in GPS tracking reliability
+
+---
+
+## Reflections & Lessons Learned
+
+This project strengthened my expertise in **precision mechanical design**, **GD&T applications**, and **cross-disciplinary collaboration**. In future iterations, I would explore integrating **automated alignment feedback** using onboard sensors.
