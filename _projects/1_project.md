@@ -24,14 +24,20 @@ Our client needed a reliable way to **attach multiple antennas onto a motorized 
 The **Universal Antenna Remounting System** enables **quick-swapping of antennas** with a robust, modular, and adaptable attachment system. Designed for durability and ease of use, it integrates multiple prototype components into one solution.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-mount.jpg" title="AZ Mount Pro with attachment system" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="assets/img/e4-mount.jpg" 
+         alt="AZ Mount Pro" 
+         class="img-fluid rounded z-depth-1" 
+         style="height: 200px; object-fit: contain;">
   </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-antenna.jpg" title="Arrow-head antenna with modular joint" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="assets/img/e4-antenna.jpg" 
+         alt="Arrow-head antenna" 
+         class="img-fluid rounded z-depth-1" 
+         style="height: 200px; object-fit: contain;">
   </div>
 </div>
-<div class="caption">
+<div class="caption text-center">
   System integration: Telescope mount (left) and the arrow-head antenna module (right).
 </div>
 
@@ -51,13 +57,13 @@ The design objectives:
 
 ---
 
-## Design & Development Process
+## Design Process
 
-- Sketched and iterated multiple geometries for modularity and balance  
-- Created **SolidWorks CAD models** for each prototype component  
-- Integrated **radio-transparent materials** (CFRP, nylon, PVC) to avoid interference  
-- Machined aluminum parts for high-stress interfaces (telescope mount sleeve)  
-- Designed evaluation protocols with **objective scoring metrics** for sturdiness, compactness, usability, and adaptability  
+1. Sketched and iterated multiple geometries for modularity and balance  
+2. Created **SolidWorks CAD models** for each prototype component  
+3. Integrated **radio-transparent materials** (CFRP, nylon, PVC) to avoid interference  
+4. Machined aluminum parts for high-stress interfaces (telescope mount sleeve)  
+5. Designed evaluation protocols with **objective scoring metrics** for sturdiness, compactness, usability, and adaptability  
 
 <!--
 <div class="row">
@@ -75,7 +81,7 @@ The design objectives:
 
 ---
 
-## Prototyping & Fabrication
+## Prototyping
 
 - **Antenna-to-PVC Joint:** Carbon fiber 3D printed for strength and lightness; nylon bolts for quick-swapping and antenna rotation  
 - **Parabolic Antenna Attachment:** CFRP-printed adapter panel, slim design for compact storage, bolted connections for detachability  
@@ -98,7 +104,7 @@ The design objectives:
 
 ---
 
-## Evaluation & Testing
+## Evaluation
 
 Each prototype was evaluated against objectives using structured tests:  
 
@@ -128,10 +134,10 @@ Each prototype was evaluated against objectives using structured tests:
 ## Final Outcome
 
 - Delivered a **field-ready modular antenna mounting system**  
-- Enabled fast, reliable antenna swaps on a motorized telescope mount  
-- Reduced setup time while maintaining sturdiness and signal clarity  
-- Designed with extensibility for future antennas  
-- Awarded the Davies Engineering Prize by The Engineering Department
+- Enabled **fast, reliable antenna swaps** on a motorized telescope mount  
+- **Reduced setup time** while maintaining sturdiness and signal clarity  
+- Designed with **extensibility** for future antennas  
+- Awarded the **Davies Engineering Prize** by The Engineering Department
 
 ---
 
