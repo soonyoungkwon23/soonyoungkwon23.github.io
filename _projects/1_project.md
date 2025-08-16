@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Universal Antenna Remounting System
+title: Universal Antenna Remounting System E004
 description: High-precision GPS antenna mount for satellite and drone tracking
 img: assets/img/e4-hero.jpg
 importance: 1
@@ -10,54 +10,45 @@ related_publications: false
 
 ## Overview
 
-GPS tracking is only as good as the mount it rests on — so I built one that leaves no room for “close enough.”  
-The **Universal Antenna Remounting System** integrates seamlessly with a motorized telescope mount and achieves **±0.1 mm positional accuracy** with reliable, repeatable alignment every time.
+Our client needed a reliable way to **attach multiple antennas onto a motorized telescope mount** for tracking satellites and drones. Existing solutions lacked modularity, precision, and field usability.  
+
+The **Universal Antenna Remounting System** enables **quick-swapping of antennas** with a robust, modular, and adaptable attachment system. Designed for durability and ease of use, it integrates multiple prototype components into a cohesive, field-ready solution.
 
 ---
 
 ## Problem Statement
 
-Existing mounts often fail to combine universality, durability, and high-precision re-alignment.  
-The common problems:
+The client’s challenge:  
+- No proper method to mount antennas onto the telescope system  
+- Needed **quick interchangeability** for “in the field” research  
+- Required compatibility for two main antennas, with modularity for future antennas  
 
-- Only fitting specific antenna models  
-- Time-consuming, inconsistent repositioning  
-- Mechanical drift that undermines GPS accuracy  
-
-The goal: design a **modular, lightweight, and robust** system that works across multiple antenna types while delivering consistent, precision alignment.
-
----
-
-## Design Requirements
-
-- **Precision:** ±0.1 mm repeatability  
-- **Universal Compatibility:** Adjustable to multiple antenna form factors  
-- **Lightweight & Strong:** CFRP for weight savings, CNC aluminum for high strength  
-- **GD&T Compliance:** Ensured consistent manufacturing and assembly tolerances
+The design objectives:  
+1. **Sturdiness** – withstand handling and field use  
+2. **Ease of attachment** – antennas must be swappable within minutes  
+3. **Adaptability** – scalable to future antenna designs  
 
 ---
 
 ## Design & Development Process
 
-- Sketched and evaluated geometries for stiffness and stability  
-- Created **SolidWorks CAD models** with modular, quick-disassembly assemblies  
-- Applied **GD&T tolerancing** to critical alignment surfaces  
-- Performed **FEA analysis** to confirm rigidity and reduce vibration effects
+- Sketched and iterated multiple geometries for modularity and balance  
+- Created **SolidWorks CAD models** for each prototype component  
+- Integrated **radio-transparent materials** (CFRP, nylon, PVC) to avoid interference  
+- Machined aluminum parts for high-stress interfaces (telescope mount sleeve)  
+- Designed evaluation protocols with **objective scoring metrics** for sturdiness, compactness, usability, and adaptability  
 
 <!--
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-cad1.jpg" title="CAD model - front view" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/e4-cad1.jpg" title="CAD model - joint design" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-cad2.jpg" title="CAD model - exploded view" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-fea.jpg" title="FEA analysis results" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/e4-cad2.jpg" title="CAD model - telescope mount sleeve" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-  CAD renders and FEA results showing structural performance and assembly design.
+  SolidWorks CAD models showing modular joints and telescope mount sleeve.
 </div>
 -->
 
@@ -65,65 +56,69 @@ The goal: design a **modular, lightweight, and robust** system that works across
 
 ## Prototyping & Fabrication
 
-- **CFRP 3D printing** for lightweight antenna brackets  
-- **CNC machining** of aluminum components for durability  
-- Integrated quick-release fasteners for faster field assembly
+- **Antenna-to-PVC Joint:** Carbon fiber 3D printed for strength and lightness; nylon bolts for quick-swapping and antenna rotation  
+- **Parabolic Antenna Attachment:** CFRP-printed adapter panel, slim design for compact storage, bolted connections for detachability  
+- **Telescope Mount Piece & Sleeve:** CNC aluminum with threaded rods, counterbalance support, and engraved branding  
+- **PVC Beam Joint:** Chemically bonded elbow + fasteners for structural stability  
 
 <!--
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-cfrp.jpg" title="CFRP part printing" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/e4-cfrp.jpg" title="CFRP 3D printed joint" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-cnc.jpg" title="CNC machining process" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/e4-cnc.jpg" title="CNC aluminum machining" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-  CFRP for lightweight performance; CNC aluminum for structural reliability.
+  Prototyping methods: CFRP 3D printing for lightweight antenna joints; CNC machining for telescope mount sleeve.
 </div>
 -->
 
 ---
 
-## Testing & Validation
+## Evaluation & Testing
 
-- Verified **±0.1 mm accuracy** using a coordinate measuring machine (CMM)  
-- Conducted repeatability and environmental durability tests  
-- Field trials showed improved GPS lock stability and consistent alignment
+Each prototype was evaluated against objectives using structured tests:  
+
+- **Sturdiness:** Intended-use cycles, drop tests, and deflection measurements  
+- **Compactness:** Measured volume/height; evaluated storage feasibility  
+- **Ease of Use:** Timed attachment/detachment trials with E4 peers  
+- **Signal Integrity:** Confirmed no interfering materials in antenna read zone  
+- **Adaptability:** Interview-based assessment of ease for future antenna integration  
+- **Rotation:** Verified orientation adjustments for antenna polarization  
 
 <!--
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/e4-test.jpg" title="CMM measurement process" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/e4-test1.jpg" title="Sturdiness test setup" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/e4-chart.jpg" title="Accuracy measurement chart" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/e4-test2.jpg" title="Timed attachment trials" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-  CMM verification confirmed repeatability within ±0.1 mm tolerance.
+  Testing setup for sturdiness and usability trials.
 </div>
 -->
-
----
-
-## Project Management
-
-- Maintained a **Gantt chart** for timelines and deliverables  
-- Led **daily stand-up meetings** to coordinate progress  
-- Documented decisions and changes for clear project tracking
 
 ---
 
 ## Final Outcome
 
-- Integrated seamlessly with various GPS antenna models  
-- Achieved consistent sub-millimeter alignment  
-- Enhanced GPS tracking reliability for both satellite and drone applications
+- Delivered a **field-ready modular antenna mounting system**  
+- Enabled fast, reliable antenna swaps on a motorized telescope mount  
+- Reduced setup time while maintaining sturdiness and signal clarity  
+- Designed with extensibility for future antennas  
+- Awarded the Davies Engineering Prize by The Engineering Department
 
 ---
 
 ## Reflections & Lessons Learned
 
-This project refined my skills in **precision mechanical design**, **GD&T implementation**, and **team coordination**.  
-If expanded in the future, I would explore adding **automated alignment feedback** to further improve setup speed and accuracy.
+Through this project, I gained experience in:  
+- **Carbon fiber 3D printing and CNC aluminum machining**  
+- Designing for **GD&T tolerances, modularity, and future adaptability**  
+- Creating structured **evaluation protocols** for engineering prototypes  
+
+If developed further, I would refine the **quick-release mechanisms** and add **automated alignment feedback** to make field deployment even faster and more intuitive.
