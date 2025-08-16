@@ -8,11 +8,32 @@ category: Engineering Projects @ HMC
 related_publications: false
 ---
 
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0 text-center">
+    {% include figure.liquid loading="eager" path="assets/img/e4-hero.jpg" title="E4 Hero - Full System" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption text-center">
+  Final prototype of the Universal Antenna Remounting System.
+</div>
+
 ## Overview
 
-Our client needed a reliable way to **attach multiple antennas onto a motorized telescope mount** for tracking satellites and drones. Existing solutions lacked modularity, precision, and field usability.  
+Our client needed a reliable way to **attach multiple antennas onto a motorized telescope mount**, specifically, parabolic and arrow antennas with the AZ Mount Pro by iOptron, for tracking satellites and drones. Existing solutions lacked modularity, precision, and field usability.  
 
-The **Universal Antenna Remounting System** enables **quick-swapping of antennas** with a robust, modular, and adaptable attachment system. Designed for durability and ease of use, it integrates multiple prototype components into a cohesive, field-ready solution.
+The **Universal Antenna Remounting System** enables **quick-swapping of antennas** with a robust, modular, and adaptable attachment system. Designed for durability and ease of use, it integrates multiple prototype components into one solution.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/e4-mount.jpg" title="AZ Mount Pro with attachment system" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/e4-antenna.jpg" title="Arrow-head antenna with modular joint" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  System integration: Telescope mount (left) and the arrow-head antenna module (right).
+</div>
 
 ---
 
