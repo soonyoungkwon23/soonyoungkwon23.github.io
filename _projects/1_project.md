@@ -67,6 +67,9 @@ The design objectives:
 4. Machined aluminum parts for high-stress interfaces (telescope mount sleeve)
 5. Designed evaluation protocols with **objective scoring metrics** for sturdiness, compactness, usability, and adaptability
 
+**Check out our full design drawings and process router here:**  
+[E4 Drawings (PDF)]({{ '/assets/pdf/E4_Drawings.pdf' | relative_url }})  
+
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     <img src="{{ '/assets/img/e4-cad1.png' | relative_url }}" alt="CAD model - joint design" class="img-fluid rounded z-depth-1" style="object-fit: contain; height: 300px; width: 100%;">
@@ -146,7 +149,7 @@ Each prototype was evaluated against objectives using structured tests:
 
 ---
 
-## Reflections & Lessons Learned
+## Lessons Learned
 
 Through this project, I gained experience in:
 
@@ -155,3 +158,13 @@ Through this project, I gained experience in:
 - Creating structured **evaluation protocols** for engineering prototypes
 
 If developed further, I would refine the **quick-release mechanisms** and add **automated alignment feedback** to make field deployment even faster and more intuitive.
+
+---
+
+## Acknowledgements
+
+This project was made possible with the collaboration and support of:  
+
+- **My Wonderful Teammates:** Thiven Anderson, Ever Diaz-Ramos, Kaden Cassidy  
+- **Awesome Professor:** Prof. Qimin Yang  
+- **Supportive Client:** Prof. Jason Gallicchio  
