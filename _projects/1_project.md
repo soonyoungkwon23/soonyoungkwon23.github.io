@@ -8,15 +8,13 @@ category: Engineering Projects @ HMC
 related_publications: false
 ---
 
-<div class="row justify-content-sm-center">
+<div class="row justify-content-center">
   <div class="col-sm-10 mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/e4-hero.jpg' | relative_url }}"
-         alt="E4 Hero - Full System"
-         class="img-fluid rounded z-depth-1">
+    {% include figure.liquid loading="eager" path="/assets/img/e4-hero.jpg" title="E4 Hero Shot" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption text-center">
-  Final prototype of the Universal Antenna Remounting System.
+  Final E4 prototype: Universal Antenna Remounting System fully assembled.
 </div>
 
 ## Overview
