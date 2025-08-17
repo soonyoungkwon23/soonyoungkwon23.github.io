@@ -67,7 +67,7 @@ The design objectives:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-cad1.JPEG | absolute_url }}" alt="CAD model - joint design" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-cad1.png | absolute_url }}" alt="CAD model - joint design" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm mt-3 mt-md-0">
     <img src="{{ '/assets/img/e4-cad2.png | absolute_url }}" alt="CAD model - telescope mount sleeve" class="img-fluid rounded z-depth-1">
@@ -113,10 +113,10 @@ Each prototype was evaluated against objectives using structured tests:
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-test1.png' | relative_url }}" alt="Testing for Ease of Use" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-test1.jpg' | absolute_url }}" alt="Testing for Ease of Use" class="img-fluid rounded z-depth-1" style="height: 350px; object-fit: cover; width: 100%;">
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-test2.png' | relative_url }}" alt="Testing for rotation" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-test2.jpg' | absolute_url }}" alt="Testing for rotation" class="img-fluid rounded z-depth-1" style="height: 350px; object-fit: cover; width: 100%;">
   </div>
 </div>
 <div class="caption">
