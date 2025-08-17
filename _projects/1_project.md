@@ -67,8 +67,8 @@ The design objectives:
 4. Machined aluminum parts for high-stress interfaces (telescope mount sleeve)
 5. Designed evaluation protocols with **objective scoring metrics** for sturdiness, compactness, usability, and adaptability
 
-**Check out our full design drawings and process router here:**  
-[E4 Drawings (PDF)]({{ '/assets/pdf/E4_Drawings.pdf' | relative_url }})  
+**Check out our full design drawings and process router here:**
+[E4 Drawings (PDF)]({{ '/assets/pdf/E4_Drawings.pdf' | relative_url }})
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
@@ -163,8 +163,8 @@ If developed further, I would refine the **quick-release mechanisms** and add **
 
 ## Acknowledgements
 
-This project was made possible with the collaboration and support of:  
+This project was made possible with the collaboration and support of:
 
-- **My Wonderful Teammates:** Thiven Anderson, Ever Diaz-Ramos, Kaden Cassidy  
-- **Awesome Professor:** Prof. Qimin Yang  
-- **Supportive Client:** Prof. Jason Gallicchio  
+- **My Wonderful Teammates:** Thiven Anderson, Ever Diaz-Ramos, Kaden Cassidy
+- **Awesome Professor:** Prof. Qimin Yang
+- **Supportive Client:** Prof. Jason Gallicchio
