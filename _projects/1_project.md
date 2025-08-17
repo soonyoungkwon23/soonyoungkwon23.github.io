@@ -65,7 +65,6 @@ The design objectives:
 4. Machined aluminum parts for high-stress interfaces (telescope mount sleeve)  
 5. Designed evaluation protocols with **objective scoring metrics** for sturdiness, compactness, usability, and adaptability  
 
-<!--
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     <img src="{{ '/assets/img/e4-cad1.jpg' | relative_url }}" alt="CAD model - joint design" class="img-fluid rounded z-depth-1">
@@ -77,7 +76,6 @@ The design objectives:
 <div class="caption">
   SolidWorks CAD models showing modular joints and telescope mount sleeve.
 </div>
--->
 
 ---
 
@@ -88,7 +86,6 @@ The design objectives:
 - **Telescope Mount Piece & Sleeve:** CNC aluminum with threaded rods, counterbalance support, and engraved branding  
 - **PVC Beam Joint:** Chemically bonded elbow + fasteners for structural stability  
 
-<!--
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     <img src="{{ '/assets/img/e4-cfrp.jpg' | relative_url }}" alt="CFRP 3D printed joint" class="img-fluid rounded z-depth-1">
@@ -100,7 +97,6 @@ The design objectives:
 <div class="caption">
   Prototyping methods: CFRP 3D printing for lightweight antenna joints; CNC machining for telescope mount sleeve.
 </div>
--->
 
 ---
 
