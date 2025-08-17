@@ -67,10 +67,10 @@ The design objectives:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-cad1.jpg' | relative_url }}" alt="CAD model - joint design" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-cad1.jpg' | absolute_url }}" alt="CAD model - joint design" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-cad2.jpg' | relative_url }}" alt="CAD model - telescope mount sleeve" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-cad2.jpg' | absolute_url }}" alt="CAD model - telescope mount sleeve" class="img-fluid rounded z-depth-1">
   </div>
 </div>
 <div class="caption">
@@ -88,10 +88,10 @@ The design objectives:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-cfrp.jpg' | relative_url }}" alt="CFRP 3D printed joint" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-cfrp.jpg' | absolute_url }}" alt="CFRP 3D printed joint" class="img-fluid rounded z-depth-1" style="height: 350px; object-fit: cover; width: 100%;">
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-cnc.jpg' | relative_url }}" alt="CNC aluminum machining" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-cnc.jpg' | absolute_url }}" alt="CNC aluminum machining" class="img-fluid rounded z-depth-1" style="height: 350px; object-fit: cover; width: 100%;">
   </div>
 </div>
 <div class="caption">
@@ -114,14 +114,14 @@ Each prototype was evaluated against objectives using structured tests:
 <!--
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-test1.jpg' | relative_url }}" alt="Sturdiness test setup" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-test1.jpg' | relative_url }}" alt="Testing for Ease of Use" class="img-fluid rounded z-depth-1">
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/e4-test2.jpg' | relative_url }}" alt="Timed attachment trials" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/e4-test2.jpg' | relative_url }}" alt="Testing for rotation" class="img-fluid rounded z-depth-1">
   </div>
 </div>
 <div class="caption">
-  Testing setup for sturdiness and usability trials.
+  Testing setup for usability and rotation trials.
 </div>
 -->
 
@@ -145,3 +145,4 @@ Through this project, I gained experience in:
 - Creating structured **evaluation protocols** for engineering prototypes  
 
 If developed further, I would refine the **quick-release mechanisms** and add **automated alignment feedback** to make field deployment even faster and more intuitive.
+
