@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="assets/img/e4-hero.jpg" title="E4 Hero - Full System" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="{{ site.baseurl }}/assets/img/e4-hero.jpg" title="E4 Hero - Full System" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption text-center">
@@ -25,21 +25,16 @@ The **Universal Antenna Remounting System** enables **quick-swapping of antennas
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="assets/img/e4-mount.jpg" 
-         alt="AZ Mount Pro" 
-         class="img-fluid rounded z-depth-1" 
-         style="height: 200px; object-fit: contain;">
+    {% include figure.liquid loading="eager" path="{{ site.baseurl }}/assets/img/e4-mount.jpg" title="AZ Mount Pro" class="img-fluid rounded z-depth-1" style="height:200px; object-fit:contain;" %}
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="assets/img/e4-antenna.jpg" 
-         alt="Arrow-head antenna" 
-         class="img-fluid rounded z-depth-1" 
-         style="height: 200px; object-fit: contain;">
+    {% include figure.liquid loading="eager" path="{{ site.baseurl }}/assets/img/e4-antenna.jpg" title="Arrow-head antenna" class="img-fluid rounded z-depth-1" style="height:200px; object-fit:contain;" %}
   </div>
 </div>
 <div class="caption text-center">
   System integration: Telescope mount (left) and the arrow-head antenna module (right).
 </div>
+
 
 ---
 
@@ -68,10 +63,10 @@ The design objectives:
 <!--
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-cad1.jpg" title="CAD model - joint design" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="{{ site.baseurl }}/assets/img/e4-cad1.jpg" title="CAD model - joint design" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-cad2.jpg" title="CAD model - telescope mount sleeve" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="{{ site.baseurl }}/assets/img/e4-cad2.jpg" title="CAD model - telescope mount sleeve" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -91,10 +86,10 @@ The design objectives:
 <!--
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-cfrp.jpg" title="CFRP 3D printed joint" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="{{ site.baseurl }}/assets/img/e4-cfrp.jpg" title="CFRP 3D printed joint" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/e4-cnc.jpg" title="CNC aluminum machining" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="{{ site.baseurl }}/assets/img/e4-cnc.jpg" title="CNC aluminum machining" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -118,10 +113,10 @@ Each prototype was evaluated against objectives using structured tests:
 <!--
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/e4-test1.jpg" title="Sturdiness test setup" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="{{ site.baseurl }}/assets/img/e4-test1.jpg" title="Sturdiness test setup" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/e4-test2.jpg" title="Timed attachment trials" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="{{ site.baseurl }}/assets/img/e4-test2.jpg" title="Timed attachment trials" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
