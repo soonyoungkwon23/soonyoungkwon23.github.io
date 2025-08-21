@@ -417,9 +417,9 @@ ninja.data = [{
           description: "High-precision GPS antenna mount for satellite and drone tracking",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-hybrid-powered-go-kart-mudd-automotive-club",
+          title: 'Hybrid-Powered Go-Kart - Mudd Automotive Club',
+          description: "A hybrid drivetrain go-kart integrating IC and electric motor power",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
