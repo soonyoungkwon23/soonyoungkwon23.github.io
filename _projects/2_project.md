@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hybrid-Powered Go-Kart - Mudd Automotive Club
-description: A hybrid drivetrain go-kart integrating IC and electric motor power
+title: Hybrid-Powered Go-Kart
+description: A hybrid drivetrain go-kart integrating IC and electric motor
 img: assets/img/gokart-hero.jpg
 importance: 1
 category: Engineering Projects @ HMC
@@ -19,36 +19,37 @@ related_publications: false
 
 ## Overview
 
-The **Hybrid-Powered Go-Kart Project** aims to design, fabricate, and integrate a **hybrid powertrain system** combining a **Yamaha SRX 440 ICE** with **four 12V electric motors** under a **parallel hybrid architecture**. The goal is a go-kart capable of **combined power delivery** and **regenerative braking**.
+The **Hybrid-Powered Go-Kart Project** aims to design, fabricate, and integrate a **parallel hybrid powertrain system** combining a **Yamaha SRX 440 internal combustion engine** with **four 12V electric motors**.  
 
-This project emphasizes **mechanical design, hybrid control integration, and precision fabrication**, blending advanced CAD modeling with hands-on machining.
+The goal: **combined power delivery and regenerative braking** in a lightweight and safe high-performance chassis.
 
 ---
 
-## Problem Statement
+## Problem
 
 The challenges for this project are:
 
-- Integrating **two distinct drivetrain systems** (IC engine + electric motors)
-- Achieving **reliable regenerative braking**
-- Designing a **lightweight yet strong chassis**
-- Ensuring **precision component mounting** for drivetrain alignment and safety
+- Integrating **two distinct drivetrain systems** (IC engine + electric motors)  
+- Achieving **reliable regenerative braking**  
+- Designing a **lightweight yet strong chassis**  
+- Ensuring **reliable and precise manufacturing** for function and safety  
 
 Design objectives:
 
-1. **Hybrid Integration** – reliable transition between combustion and electric modes
-2. **Performance** – maximize torque and speed while ensuring safety
-3. **Strength-to-Weight** – use advanced materials and strategic chassis design for durability
+1. **Hybrid Integration** – reliable transition between combustion and electric modes  
+2. **Performance** – optimize torque and speed while ensuring safety  
+3. **Strength-to-Weight** – use advanced materials and strategic chassis design for durability  
 
 ---
 
 ## Design Process
 
-1. **CAD Development:** Modeled chassis and components in **SolidWorks**, including assembly simulations and interference checks  
-2. **Structural Design:** Optimized chassis geometry for load paths, rollover protection, and driver safety  
-3. **Fabrication:** Applied **TIG welding** of 4130 chromoly steel tubing to balance strength and weight  
-4. **Precision Machining:** CNC-machined **6061 aluminum brackets** for secure mounting of motors, batteries, and drivetrain components  
-5. **Control Integration:** Developing hybrid drivetrain logic for **power blending and regenerative braking**  
+1. **Ideating:** Brainstormed core features and sketched chassis concepts  
+2. **CAD Development:** Modeled chassis and components in **SolidWorks**, including simulations and detailed drawings  
+3. **Structural Design:** Optimized chassis geometry for load paths, drivetrain housing, and driver safety  
+4. **Fabrication:** Applied **MIG welding** of 4130 chromoly steel tubing for strength-to-weight balance  
+5. **Precision Machining:** CNC-machined **6061 aluminum brackets** for secure mounting of motors, batteries, and drivetrain components  
+6. **Control Integration:** Developing hybrid drivetrain logic for **power blending and regenerative braking**  
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
@@ -66,33 +67,32 @@ Design objectives:
 
 ## Prototyping & Fabrication
 
-- **Chassis:** TIG welded 4130 chromoly tubing, tested for torsional stiffness and crash resistance  
-- **Brackets & Mounts:** CNC-machined 6061 aluminum to ensure tight tolerances for motors and drivetrain alignment  
-- **Hybrid Drivetrain:** Integration of Yamaha SRX 440 IC engine with electric motors through a shared drive system  
-- **Controls:** In-progress hybrid logic development for **power blending and regenerative braking**  
-- **Testing:** Early rolling tests and subsystem trials underway  
+- **Chassis:** MIG welded 4130 chromoly angle, designed for torsional stiffness and crash resistance  
+- **Brackets & Mounts:** CNC-machined 6061 aluminum, ensuring tight tolerances for drivetrain alignment  
+- **Hybrid Drivetrain:** Integration of Yamaha SRX 440 IC engine with electric motors in a **parallel hybrid system**, requiring custom clutch solutions  
+- **Controls:** In-progress code development for motor and engine output control, plus regenerative braking  
+- **Testing:** Early rolling and subsystem trials underway  
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/gokart-welding.jpg' | absolute_url }}" alt="TIG welding 4130 chromoly chassis" class="img-fluid rounded z-depth-1" style="height:300px; object-fit:cover; width:100%;">
+    <img src="{{ '/assets/img/gokart-welding.jpg' | absolute_url }}" alt="MIG welding 4130 chromoly chassis" class="img-fluid rounded z-depth-1" style="height:300px; object-fit:cover; width:100%;">
   </div>
   <div class="col-sm mt-3 mt-md-0">
     <img src="{{ '/assets/img/gokart-cnc.jpg' | absolute_url }}" alt="CNC-machined aluminum 6061 brackets" class="img-fluid rounded z-depth-1" style="height:300px; object-fit:cover; width:100%;">
   </div>
 </div>
 <div class="caption">
-  Fabrication methods: TIG welding of chromoly steel chassis and CNC machining of precision aluminum brackets.
+  Fabrication methods: MIG welding of chromoly steel chassis and CNC machining of precision aluminum brackets.
 </div>
 
 ---
 
 ## Current Outcome
 
-- Completed **chassis fabrication** with TIG-welded chromoly steel  
-- CNC-machined **motor and drivetrain brackets** with tight tolerances  
-- Installed **hybrid drivetrain components** with preliminary integration completed  
-- In-progress development of **control logic** for power blending and regenerative braking  
-- Early **rolling and brake tests** underway to validate chassis and subsystem performance  
+- **Completed chassis fabrication** using MIG-welded chromoly steel  
+- Preparing **hybrid drivetrain components** for testing with preliminary integration completed  
+- **Control logic development** underway for hybrid architecture and regenerative braking  
+- Early **rolling and brake tests** in progress to validate subsystem performance  
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
@@ -109,12 +109,18 @@ Design objectives:
 
 Through this project, I have gained experience in:
 
-- **Chromoly TIG welding** for chassis fabrication  
-- **CNC machining and tolerance control** for high-precision mounts  
+- **MIG welding** for structural fabrication  
+- **CNC machining and tolerance control** for high-precision parts  
 - **Hybrid drivetrain integration** and early regenerative braking testing  
-- Applying **SolidWorks for complex assemblies** and design-for-manufacture principles  
+- Applying **SolidWorks** for complex assemblies and design-for-manufacture principles  
 
-Future work will focus on refining **battery management**, optimizing **weight distribution**, and finalizing **hybrid control algorithms** for smooth performance.
+Future work will focus on:  
+
+- Completing **drivetrain coupling + controls**  
+- Full **battery and wiring integration**  
+- Finalizing **hybrid control logic** (esp. regenerative braking)  
+- Conducting **system-level tests**  
+- Preparing **final documentation**  
 
 ---
 
@@ -122,5 +128,4 @@ Future work will focus on refining **battery management**, optimizing **weight d
 
 This project is made possible with the support of:
 
-- **Mudd Automotive Club Members**  
-- **Mentors and Faculty Advisors** who provide fabrication and engineering guidance
+- **Mudd Automotive Club Members**
