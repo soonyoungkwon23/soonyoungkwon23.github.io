@@ -53,10 +53,10 @@ Design objectives:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/gokart-sketch.png' | relative_url }}" alt="Top-view sketch of go-kart" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
+    <img src="{{ '/assets/img/gokart-sketch.jpg’ | relative_url }}" alt="Top-view sketch of go-kart" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/gokart-cad.png' | relative_url }}" alt="SolidWorks chassis model" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
+    <img src="{{ '/assets/img/gokart-cad.jpg' | relative_url }}" alt="SolidWorks chassis model" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
   </div>
 </div>
 <div class="caption text-center">
