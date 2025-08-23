@@ -53,14 +53,14 @@ Design objectives:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/gokart-cad1.png' | relative_url }}" alt="SolidWorks chassis model" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
+    <img src="{{ '/assets/img/gokart-sketch.png' | relative_url }}" alt="Top-view sketch of go-kart" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/gokart-cad2.png' | relative_url }}" alt="Hybrid drivetrain assembly" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
+    <img src="{{ '/assets/img/gokart-cad.png' | relative_url }}" alt="SolidWorks chassis model" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
   </div>
 </div>
 <div class="caption text-center">
-  SolidWorks CAD models of the hybrid chassis and drivetrain integration.
+  Top-view sketch during the planning stage and SolidWorks CAD model of the chassis.
 </div>
 
 ---
@@ -75,14 +75,14 @@ Design objectives:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/gokart-welding.jpg' | absolute_url }}" alt="MIG welding 4130 chromoly chassis" class="img-fluid rounded z-depth-1" style="height:300px; object-fit:cover; width:100%;">
+    <img src="{{ '/assets/img/gokart-cutting.jpg' | absolute_url }}" alt="Cutting 4130 chromoly for chassis" class="img-fluid rounded z-depth-1" style="height:300px; object-fit:cover; width:100%;">
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/gokart-cnc.jpg' | absolute_url }}" alt="CNC-machined aluminum 6061 brackets" class="img-fluid rounded z-depth-1" style="height:300px; object-fit:cover; width:100%;">
+    <img src="{{ '/assets/img/gokart-suspension.jpg' | absolute_url }}" alt="Rear-end suspension installation" class="img-fluid rounded z-depth-1" style="height:300px; object-fit:cover; width:100%;">
   </div>
 </div>
 <div class="caption">
-  Fabrication methods: MIG welding of chromoly steel chassis and CNC machining of precision aluminum brackets.
+  Fabrication methods: Cutting chromoly steel for chassis and complete rear-end suspension installation.
 </div>
 
 ---
@@ -96,11 +96,11 @@ Design objectives:
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/gokart-final.jpg' | absolute_url }}" alt="Hybrid go-kart prototype in current build stage" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/gokart-logo.jpg' | absolute_url }}" alt="Logo of the Mudd Automotive Club" class="img-fluid rounded z-depth-1">
   </div>
 </div>
 <div class="caption">
-  Current hybrid go-kart prototype build progress.
+  Stay tuned for more updates from this project!
 </div>
 
 ---
