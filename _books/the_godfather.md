@@ -11,7 +11,7 @@ buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
 started: 2024-08-23
 finished: 2024-09-07
 released: 1969
-stars: 5
+stars: 4.6
 goodreads_review: 6318556633
 status: Finished
 ---
