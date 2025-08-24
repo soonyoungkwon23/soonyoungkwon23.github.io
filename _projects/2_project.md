@@ -96,7 +96,7 @@ Design objectives:
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/gokart-hero.jpg' | absolute_url }}" alt="Hybrid Go-Kart Hero Shot" class="img-fluid rounded z-depth-1" style="max-height:300px; object-fit:contain;">
+    <img src="{{ '/assets/img/gokart-hero.jpg' | absolute_url }}" alt="Hybrid Go-Kart Hero Shot" class="img-fluid rounded z-depth-1" style="max-height:400px; object-fit:contain;">
   </div>
 </div>
 <div class="caption text-center">
@@ -114,7 +114,7 @@ Through this project, I have gained experience in:
 - **Hybrid drivetrain integration** and early regenerative braking testing
 - Applying **SolidWorks** for complex assemblies and design-for-manufacture principles
 
-Future work will focus on:  
+Future work will focus on:
 
 - Completing **drivetrain coupling + controls**
 - Full **battery and wiring integration**
