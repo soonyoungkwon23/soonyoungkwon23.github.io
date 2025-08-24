@@ -2,7 +2,7 @@
 layout: page
 title: Hybrid-Powered Go-Kart
 description: A hybrid drivetrain go-kart integrating IC and electric motor
-img: assets/img/gokart-hero.jpg
+img: assets/img/gokart-logo.jpg
 importance: 1
 category: Engineering Projects @ HMC
 related_publications: false
@@ -96,7 +96,7 @@ Design objectives:
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="/assets/img/gokart-hero.jpg" title="Hybrid Go-Kart Hero Shot" class="img-fluid rounded z-depth-1" style="max-height:300px; object-fit:contain;" %}
+    <img src="{{ '/assets/img/gokart-hero.jpg' | absolute_url }}" alt="Hybrid Go-Kart Hero Shot" class="img-fluid rounded z-depth-1" style="max-height:300px; object-fit:contain;">
   </div>
 </div>
 <div class="caption text-center">
