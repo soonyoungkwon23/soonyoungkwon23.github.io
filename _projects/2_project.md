@@ -9,12 +9,12 @@ related_publications: false
 ---
 
 <div class="row justify-content-center">
-  <div class="col-sm-10 mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="/assets/img/gokart-hero.jpg" title="Hybrid Go-Kart Hero Shot" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-8 mt-3 mt-md-0 text-center">
+    <img src="{{ '/assets/img/gokart-logo.jpg' | absolute_url }}" alt="Logo of the Mudd Automotive Club" class="img-fluid rounded z-depth-1" style="max-height:250px; object-fit:contain;">
   </div>
 </div>
 <div class="caption text-center">
-  Hybrid-powered go-kart under development with the Mudd Automotive Club.
+  Logo of the Mudd Automotive Club.
 </div>
 
 ## Overview
@@ -53,7 +53,7 @@ Design objectives:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/gokart-sketch.jpg’ | relative_url }}" alt="Top-view sketch of go-kart" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
+    <img src="{{ '/assets/img/gokart-sketch.jpg' | relative_url }}" alt="Top-view sketch of go-kart" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
     <img src="{{ '/assets/img/gokart-cad.jpg' | relative_url }}" alt="SolidWorks chassis model" class="img-fluid rounded z-depth-1" style="height:250px; object-fit:contain;">
@@ -95,12 +95,12 @@ Design objectives:
 - Early **rolling and brake tests** in progress to validate subsystem performance  
 
 <div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/gokart-logo.jpg' | absolute_url }}" alt="Logo of the Mudd Automotive Club" class="img-fluid rounded z-depth-1">
+  <div class="col-sm-10 mt-3 mt-md-0 text-center">
+    {% include figure.liquid loading="eager" path="/assets/img/gokart-hero.jpg" title="Hybrid Go-Kart Hero Shot" class="img-fluid rounded z-depth-1" style="max-height:300px; object-fit:contain;" %}
   </div>
 </div>
-<div class="caption">
-  Stay tuned for more updates from this project!
+<div class="caption text-center">
+  Hybrid-powered go-kart under development with the Mudd Automotive Club.
 </div>
 
 ---
