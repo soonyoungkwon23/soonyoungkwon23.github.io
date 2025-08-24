@@ -407,11 +407,141 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "books-brave-new-world",
+          title: 'Brave New World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/brave_new_world/";
+            },},{id: "books-common-stocks-and-uncommon-profits-and-other-writings",
+          title: 'Common Stocks and Uncommon Profits and Other Writings',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/common_stocks_and_uncommon_profits/";
+            },},{id: "books-deep-work",
+          title: 'Deep Work',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep_work/";
+            },},{id: "books-elon-musk",
+          title: 'Elon Musk',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/elon_musk/";
+            },},{id: "books-essays-in-persuasion",
+          title: 'Essays in Persuasion',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/essays_in_persuasion/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/factfulness/";
+            },},{id: "books-i-will-teach-you-to-be-rich",
+          title: 'I Will Teach You to Be Rich',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/i_will_teach_you_to_be_rich/";
+            },},{id: "books-kafka-on-the-shore",
+          title: 'Kafka on the Shore',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/kafka_on_the_shore/";
+            },},{id: "books-man-s-search-for-meaning",
+          title: 'Man’s Search for Meaning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mans_search_for_meaning/";
+            },},{id: "books-never-let-me-go",
+          title: 'Never Let Me Go',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/never_let_me_go/";
+            },},{id: "books-norwegian-wood",
+          title: 'Norwegian Wood',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/norwegian_wood/";
+            },},{id: "books-power-play",
+          title: 'Power Play',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/power_play/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/skunk_works/";
+            },},{id: "books-superintelligence",
+          title: 'Superintelligence',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/superintelligence/";
+            },},{id: "books-the-7-habits-of-highly-effective-people",
+          title: 'The 7 Habits of Highly Effective People',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_7_habits/";
+            },},{id: "books-the-80-20-principle",
+          title: 'The 80/20 Principle',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_80_20_principle/";
+            },},{id: "books-the-beginning-of-infinity",
+          title: 'The Beginning of Infinity',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_beginning_of_infinity/";
+            },},{id: "books-the-design-of-everyday-things",
+          title: 'The Design of Everyday Things',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_design_of_everyday_things/";
+            },},{id: "books-the-fault-in-our-stars",
+          title: 'The Fault in Our Stars',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_fault_in_our_stars/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "books-the-leader-in-you",
+          title: 'The Leader in You',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_leader_in_you/";
+            },},{id: "books-the-snowball",
+          title: 'The Snowball',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_snowball/";
+            },},{id: "books-the-wealth-of-nations",
+          title: 'The Wealth of Nations',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_wealth_of_nations/";
+            },},{id: "books-to-kill-a-mockingbird",
+          title: 'To Kill a Mockingbird',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/to_kill_a_mockingbird/";
+            },},{id: "books-turtles-all-the-way-down",
+          title: 'Turtles All the Way Down',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/turtles_all_the_way_down/";
+            },},{id: "books-will-grayson-will-grayson",
+          title: 'Will Grayson, Will Grayson',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/will_grayson_will_grayson/";
+            },},{id: "books-zero-to-one",
+          title: 'Zero to One',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/zero_to_one/";
             },},{id: "projects-universal-antenna-remounting-system-e004",
           title: 'Universal Antenna Remounting System E004',
           description: "High-precision GPS antenna mount for satellite and drone tracking",
