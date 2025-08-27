@@ -432,8 +432,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/essays_in_persuasion/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-factfulness-ten-reasons-we-re-wrong-about-the-world",
+          title: 'Factfulness: Ten Reasons We’re Wrong About the World',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/factfulness/";
