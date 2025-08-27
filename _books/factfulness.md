@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Factfulness: Ten Reasons We’re Wrong About the World
+title: "Factfulness: Ten Reasons We’re Wrong About the World"
 author: Hans Rosling
 olid: OL27358879M
 categories: statistics global-trends economics
