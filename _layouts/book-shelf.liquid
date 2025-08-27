@@ -6,18 +6,19 @@ layout: page
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
-    {% assign sorted_collection = collection | sort: "stars" | reverse %}
+    {% assign sorted_collection = collection | sort: "title" %}
+    {% assign sorted_collection = sorted_collection | sort: "stars" | reverse %}
     {% for item in sorted_collection %}
-      {% assign current_year = item.date | date: '%Y' %}
-      {% if current_year != year %}
+      {% assign started_year = item.started | split: "-" | first %}
+      {% if started_year != year %}
         {% unless forloop.first %}
           </ul>
         {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
-          <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
+        <h1 id="y{{started_year}}">
+          <a href="{{ started_year | prepend: '/books/' | relative_url }}">{{ started_year }}</a>
         </h1>
         <ul>
-          {% assign year = current_year %}
+          {% assign year = started_year %}
       {% endif %}
 
       <figure class="cover">
