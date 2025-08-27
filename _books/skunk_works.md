@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Skunk Works: A Personal Memoir of My Years of Lockheed
+title: "Skunk Works: A Personal Memoir of My Years of Lockheed"
 author: Ben R. Rich, Leo Janos
 olid: OL23277367M
 categories: engineering history memoir innovation
