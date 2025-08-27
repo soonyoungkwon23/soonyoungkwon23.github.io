@@ -467,8 +467,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/power_play/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-skunk-works-a-personal-memoir-of-my-years-of-lockheed",
+          title: 'Skunk Works: A Personal Memoir of My Years of Lockheed',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/skunk_works/";
