@@ -592,8 +592,8 @@ ninja.data = [{
           description: "A hybrid drivetrain go-kart integrating IC and electric motor",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
+            },},{id: "projects-tie-fighter-with-blender",
+          title: 'TIE Fighter with Blender',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
