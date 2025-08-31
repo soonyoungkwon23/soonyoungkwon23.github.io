@@ -442,6 +442,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/factfulness/";
+            },},{id: "books-fundamentals-of-vehicle-dynamics",
+          title: 'Fundamentals of Vehicle Dynamics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/fundamentals_of_vehicle_dynamics/";
+            },},{id: "books-how-to-build-a-car",
+          title: 'How to Build a Car',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how_to_build_a_car/";
             },},{id: "books-i-will-teach-you-to-be-rich",
           title: 'I Will Teach You to Be Rich',
           description: "",
@@ -482,6 +492,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/power-play/";
+            },},{id: "books-sketching-drawing-techniques-for-product-designers",
+          title: 'Sketching: Drawing Techniques for Product Designers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sketching_drawing_techniques/";
             },},{id: "books-skunk-works-a-personal-memoir-of-my-years-of-lockheed",
           title: 'Skunk Works: A Personal Memoir of My Years of Lockheed',
           description: "",
@@ -532,6 +547,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the-wealth-of-nations/";
+            },},{id: "books-the-devotion-of-suspect-x",
+          title: 'The Devotion of Suspect X',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_devotion_of_suspect_x/";
+            },},{id: "books-the-nvidia-way",
+          title: 'The Nvidia Way',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_nvidia_way/";
+            },},{id: "books-the-silent-patient",
+          title: 'The Silent Patient',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_silent_patient/";
             },},{id: "books-to-kill-a-mockingbird",
           title: 'To Kill a Mockingbird',
           description: "",
