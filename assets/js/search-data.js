@@ -407,7 +407,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-brave-new-world",
+      },{id: "books-507-mechanical-movements",
+          title: '507 Mechanical Movements',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/507-mechanical-movements/";
+            },},{id: "books-brave-new-world",
           title: 'Brave New World',
           description: "",
           section: "Books",handler: () => {
@@ -442,11 +447,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/i-will-teach-you-to-be-rich/";
+            },},{id: "books-jane-eyre",
+          title: 'Jane Eyre',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/jane-eyre/";
             },},{id: "books-kafka-on-the-shore",
           title: 'Kafka on the Shore',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/kafka-on-the-shore/";
+            },},{id: "books-machinery-s-handbook",
+          title: 'Machinery’s Handbook',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/machinerys-handbook/";
             },},{id: "books-man-s-search-for-meaning",
           title: 'Man’s Search for Meaning',
           description: "",
