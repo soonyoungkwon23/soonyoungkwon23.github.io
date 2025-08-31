@@ -7,21 +7,21 @@ layout: page
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
     {% comment %} First, group books by started year {% endcomment %}
-    {% assign years_hash = "" | split: "" %}
-    {% assign no_year_books = "" | split: "" %}
+    {% assign years_hash = '' | split: '' %}
+    {% assign no_year_books = '' | split: '' %}
     
     {% for item in collection %}
       {% if item.started %}
-        {% assign started_year = item.started | split: "-" | first %}
+        {% assign started_year = item.started | split: '-' | first %}
         {% assign years_hash = years_hash | push: started_year %}
       {% else %}
         {% assign no_year_books = no_year_books | push: item %}
       {% endif %}
     {% endfor %}
-    
+
     {% comment %} Get unique years and sort them in descending order {% endcomment %}
     {% assign years = years_hash | uniq | sort | reverse %}
-    
+
     {% comment %} Iterate through each year {% endcomment %}
     {% for year in years %}
       <h1 id="y{{year}}">
@@ -60,38 +60,38 @@ layout: page
         {% endfor %}
       </ul>
     {% endfor %}
-    
+
     {% comment %} Display books without a started date {% endcomment %}
     {% if no_year_books.size > 0 %}
       <h1 id="y-unknown">Books I'm Planning to Read</h1>
       <ul>
-      {% assign sorted_no_year_books = no_year_books | sort: "title" %}
-      {% assign sorted_no_year_books = sorted_no_year_books | sort: "stars" | reverse %}
-      
-      {% for item in sorted_no_year_books %}
-        <figure class="cover">
-          <a class="cover-link" href="{{ item.url | relative_url }}">
-            {% if item.cover %}
-              <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
-            {% elsif item.olid %}
-              <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
-            {% elsif item.isbn %}
-              <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
-            {% endif %}
-            {% if item.status %}
-              {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-              {% assign status = item.status | downcase | strip %}
-              {% if statuses contains status %}
-                <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
+        {% assign sorted_no_year_books = no_year_books | sort: "title" %}
+        {% assign sorted_no_year_books = sorted_no_year_books | sort: "stars" | reverse %}
+        
+        {% for item in sorted_no_year_books %}
+          <figure class="cover">
+            <a class="cover-link" href="{{ item.url | relative_url }}">
+              {% if item.cover %}
+                <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+              {% elsif item.olid %}
+                <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+              {% elsif item.isbn %}
+                <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+              {% endif %}
+              {% if item.status %}
+                {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+                {% assign status = item.status | downcase | strip %}
+                {% if statuses contains status %}
+                  <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
+                {% else %}
+                  <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+                {% endif %}
               {% else %}
                 <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
               {% endif %}
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-            {% endif %}
-          </a>
-        </figure>
-      {% endfor %}
+            </a>
+          </figure>
+        {% endfor %}
       </ul>
     {% endif %}
   {% endif %}
