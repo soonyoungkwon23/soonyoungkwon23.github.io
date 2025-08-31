@@ -9,7 +9,7 @@ layout: page
     {% comment %} First, group books by started year {% endcomment %}
     {% assign years_hash = '' | split: '' %}
     {% assign no_year_books = '' | split: '' %}
-    
+
     {% for item in collection %}
       {% if item.started %}
         {% assign started_year = item.started | split: '-' | first %}
@@ -65,9 +65,9 @@ layout: page
     {% if no_year_books.size > 0 %}
       <h1 id="y-unknown">Books I'm Planning to Read</h1>
       <ul>
-        {% assign sorted_no_year_books = no_year_books | sort: "title" %}
-        {% assign sorted_no_year_books = sorted_no_year_books | sort: "stars" | reverse %}
-        
+        {% assign sorted_no_year_books = no_year_books | sort: 'title' %}
+        {% assign sorted_no_year_books = sorted_no_year_books | sort: 'stars' | reverse %}
+
         {% for item in sorted_no_year_books %}
           <figure class="cover">
             <a class="cover-link" href="{{ item.url | relative_url }}">
