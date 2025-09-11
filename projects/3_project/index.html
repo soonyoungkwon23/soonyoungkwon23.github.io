@@ -33,10 +33,22 @@ img: /assets/img/12.jpg
   const controls = new THREE.OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true;
 
+  // Debug cube
+  const box = new THREE.Mesh(
+    new THREE.BoxGeometry(1, 1, 1),
+    new THREE.MeshStandardMaterial({ color: 0x00ff00 })
+  );
+  scene.add(box);
+
   // Load model
   const loader = new THREE.GLTFLoader();
-  loader.load("assets/models/my_model.glb", function (gltf) {
-    scene.add(gltf.scene);
+  loader.load("/assets/models/my_model.glb", function (gltf) {
+    const model = gltf.scene;
+    model.scale.set(0.5, 0.5, 0.5);
+    model.position.set(0, 0, 0);
+    scene.add(model);
+  }, undefined, function (error) {
+    console.error("Error loading model:", error);
   });
 
   // Handle resizing
