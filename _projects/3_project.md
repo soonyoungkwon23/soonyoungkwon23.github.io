@@ -17,11 +17,6 @@ Make your photos 1/3, 2/3, or full width.
   <canvas id="viewer"></canvas>
 </div>
 
-<!-- Three.js (global build, pre-r150) -->
-<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/examples/js/loaders/GLTFLoader.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/examples/js/controls/OrbitControls.js"></script>
-
 <script>
   const container = document.getElementById("viewer-container");
   const canvas = document.getElementById("viewer");
