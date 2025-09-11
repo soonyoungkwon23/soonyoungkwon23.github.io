@@ -11,18 +11,16 @@ Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div id="viewer-container" style="width:100%; height:500px; border:1px solid #ccc; margin-top:2rem;">
   <canvas id="viewer"></canvas>
 </div>
+
+<!-- Three.js (global build, pre-r150) -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.149.0/examples/js/controls/OrbitControls.js"></script>
 
 <script>
   const container = document.getElementById("viewer-container");
@@ -51,7 +49,7 @@ To give your project a background in the portfolio page, just add the img tag to
   const controls = new THREE.OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true;
 
-  // Debug cube
+  // Debug cube (helps confirm rendering works)
   const box = new THREE.Mesh(
     new THREE.BoxGeometry(1, 1, 1),
     new THREE.MeshStandardMaterial({ color: 0x00ff00 })
@@ -62,7 +60,7 @@ To give your project a background in the portfolio page, just add the img tag to
   const loader = new THREE.GLTFLoader();
   loader.load("/assets/models/my_model.glb", function (gltf) {
     const model = gltf.scene;
-    model.scale.set(0.5, 0.5, 0.5);
+    model.scale.set(0.5, 0.5, 0.5); // adjust if needed
     model.position.set(0, 0, 0);
     scene.add(model);
   }, undefined, function (error) {
@@ -84,4 +82,3 @@ To give your project a background in the portfolio page, just add the img tag to
   }
   animate();
 </script>
-
