@@ -103,7 +103,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
   // Get base URL for GitHub Pages
   const baseUrl = '{{ site.baseurl | default: "" }}';
-  const modelPath = `${baseUrl}/assets/models/my_model.glb`;
+  const modelPath = `${baseUrl}/assets/models/TIE_fighter.gltf`;
   
   console.log('Loading model from:', modelPath);
   
