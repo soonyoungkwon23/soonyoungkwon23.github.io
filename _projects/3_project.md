@@ -138,7 +138,7 @@ window.addEventListener('DOMContentLoaded', function() {
       // Apply material and enable shadows for model
       model.traverse(function(child) {
         if (child.isMesh) {
-          child.material = metallicGreyMaterial;
+          child.material = silveryMaterial;
           child.castShadow = true;
           child.receiveShadow = true;
         }
@@ -198,6 +198,8 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-*Created: July 19, 2025 | Inspired by CBaileyFilm*
+**Created:** July 19, 2025 | **Inspired by:** CBaileyFilm  
 
-A simple 3D model of the TIE Fighter, emphasizing design proportions, symmetry, and use of modifiers. Developed using Blender 4.4, this project strengthened skills in precision modeling, spatial visualization, and mesh optimization. The joint between the wing and cockpit still needs work. 
+A detailed 3D model of the iconic TIE Fighter, emphasizing **design proportions, symmetry, and efficient use of Blender modifiers**. Developed with **Blender 4.4**.
+
+> *Note: The joint between the wing and cockpit is still under refinement.*
