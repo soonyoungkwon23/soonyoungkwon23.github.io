@@ -13,6 +13,14 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.149.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.149.0/examples/jsm/"
+      }
+    }
+    </script>
   </head>
 
   <!-- Body -->
@@ -49,10 +57,6 @@
 
     <!-- Footer -->
     {% include footer.liquid %}
-    <!-- Three.js (lock to r149 for global usage) -->
-    <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/examples/js/loaders/GLTFLoader.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/examples/js/controls/OrbitControls.js"></script>
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
