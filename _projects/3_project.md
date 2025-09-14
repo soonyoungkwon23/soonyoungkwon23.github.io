@@ -2,7 +2,7 @@
 layout: default
 title: TIE Fighter with Blender
 description: A CAD + Blender modeling project
-img: assets/img/7.jpg
+img: assets/img/TIE_fighter.jpg
 importance: 2
 category: CAD + Blender Modeling
 ---
@@ -127,9 +127,18 @@ window.addEventListener('DOMContentLoaded', function() {
       // Center the model
       model.position.copy(center).multiplyScalar(-scale);
       
-      // Enable shadows for model
+      // Create metallic grey material
+      const metallicGreyMaterial = new THREE.MeshStandardMaterial({
+        color: 0x8a8a8a,        // Medium grey base color
+        metalness: 0.7,         // High metallic property
+        roughness: 0.3,         // Low roughness for shiny metal
+        envMapIntensity: 1.0    // Environment reflection intensity
+      });
+      
+      // Apply material and enable shadows for model
       model.traverse(function(child) {
         if (child.isMesh) {
+          child.material = metallicGreyMaterial;
           child.castShadow = true;
           child.receiveShadow = true;
         }
@@ -189,14 +198,6 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-## Project Details
+*Created: July 19, 2025 | Inspired by CBaileyFilm*
 
-Add your project description, images, and other content here.
-
-### Technical Notes
-
-- **3D Model Format**: GLB (Binary glTF)
-- **Renderer**: Three.js WebGL Renderer
-- **Controls**: Orbit Controls for mouse/touch interaction
-- **Lighting**: Hemisphere and directional lighting with shadows
-- **Features**: Auto-scaling, centering, and shadow casting
+A simple 3D model of the TIE Fighter, emphasizing design proportions, symmetry, and use of modifiers. Developed using Blender 4.4, this project strengthened skills in precision modeling, spatial visualization, and mesh optimization. The joint between the wing and cockpit still needs work. 
