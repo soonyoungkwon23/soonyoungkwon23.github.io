@@ -592,11 +592,6 @@ ninja.data = [{
           description: "A hybrid drivetrain go-kart integrating IC and electric motor",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-tie-fighter-with-blender",
-          title: 'TIE Fighter with Blender',
-          description: "A CAD + Blender modeling project",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
@@ -627,6 +622,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-tie-fighter-with-blender",
+          title: 'TIE Fighter with Blender',
+          description: "A CAD + Blender modeling project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TIE_fighter/";
             },},{
         id: 'social-email',
         title: 'email',
