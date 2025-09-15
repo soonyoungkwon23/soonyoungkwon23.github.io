@@ -627,6 +627,11 @@ ninja.data = [{
           description: "A CAD + Blender modeling project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TIE_fighter/";
+            },},{id: "projects-tie-fighter-with-blender",
+          title: 'TIE Fighter with Blender',
+          description: "A CAD + Blender modeling project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/character_head/";
             },},{
         id: 'social-email',
         title: 'email',
