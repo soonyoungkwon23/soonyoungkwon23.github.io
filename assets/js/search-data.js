@@ -627,8 +627,8 @@ ninja.data = [{
           description: "A CAD + Blender modeling project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TIE_fighter/";
-            },},{id: "projects-tie-fighter-with-blender",
-          title: 'TIE Fighter with Blender',
+            },},{id: "projects-character-head-with-blender",
+          title: 'Character Head with Blender',
           description: "A CAD + Blender modeling project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/character_head/";
