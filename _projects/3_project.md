@@ -202,4 +202,4 @@ window.addEventListener('DOMContentLoaded', function() {
 
 A detailed 3D model of the iconic TIE Fighter, emphasizing **design proportions, symmetry, and efficient use of Blender modifiers**. Developed with **Blender 4.4**.
 
-> *Note: The joint between the wing and cockpit is still under refinement.*
+> *Note: The joint between the wing and cockpit needs work.*
