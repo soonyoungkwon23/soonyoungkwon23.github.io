@@ -68,6 +68,18 @@ window.addEventListener('DOMContentLoaded', function() {
   dirLight.shadow.mapSize.height = 2048;
   scene.add(dirLight);
 
+  // Back light to illuminate the rear of the model
+  const backLight = new THREE.DirectionalLight(0xffffff, 0.5);
+  backLight.position.set(-5, 5, -7.5);
+  backLight.castShadow = false; // Disable shadows for back light to avoid conflicts
+  scene.add(backLight);
+
+  // Optional: Add a subtle fill light from the side
+  const fillLight = new THREE.DirectionalLight(0xffffff, 0.3);
+  fillLight.position.set(-8, 3, 2);
+  fillLight.castShadow = false;
+  scene.add(fillLight);
+
   // Controls setup
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true;
