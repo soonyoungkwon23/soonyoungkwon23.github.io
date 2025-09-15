@@ -57,13 +57,13 @@ window.addEventListener('DOMContentLoaded', function() {
   // Back light to illuminate the rear of the model
   const backLight = new THREE.DirectionalLight(0xffffff, 0.5);
   backLight.position.set(-5, 5, -7.5);
-  backLight.castShadow = false; // Disable shadows for back light to avoid conflicts
+  backLight.castShadow = true; // Disable shadows for back light to avoid conflicts
   scene.add(backLight);
 
   // Optional: Add a subtle fill light from the side
   const fillLight = new THREE.DirectionalLight(0xffffff, 0.3);
   fillLight.position.set(-8, 3, 2);
-  fillLight.castShadow = false;
+  fillLight.castShadow = true;
   scene.add(fillLight);
 
   // Controls setup
