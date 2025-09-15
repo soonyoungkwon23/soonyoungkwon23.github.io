@@ -1,8 +1,8 @@
 ---
 layout: default
-title: TIE Fighter with Blender
+title: Character Head with Blender
 description: A CAD + Blender modeling project
-img: assets/img/TIE_fighter.jpg
+img: assets/img/character_head.jpg
 importance: 2
 category: CAD + Blender Modeling
 ---
@@ -115,7 +115,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
   // Get base URL for GitHub Pages
   const baseUrl = '{{ site.baseurl | default: "" }}';
-  const modelPath = `${baseUrl}/assets/models/TIE_fighter.gltf`;
+  const modelPath = `${baseUrl}/assets/models/character_head.glb`;
   
   console.log('Loading model from:', modelPath);
   
@@ -210,8 +210,8 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-**Created:** July 19, 2025 | **Inspired by:** CBaileyFilm  
+**Created:** July 17, 2025 | **Inspired by:** Grant Abbitt  
 
-A detailed 3D model of the iconic TIE Fighter, emphasizing **design proportions, symmetry, and efficient use of Blender modifiers**. Developed with **Blender 4.4**.
+A detailed 3D model a character head originally designed by Grant Abbitt, emphasizing **sculpting, modeling, and creavtivity on Blender**. Developed with **Blender 4.4**.
 
-> *Note: The joint between the wing and cockpit needs work.*
+> *Note: Could benefit from full material and color rendering.*
