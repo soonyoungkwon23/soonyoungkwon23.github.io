@@ -138,7 +138,7 @@ window.addEventListener('DOMContentLoaded', function() {
       // Apply material and enable shadows for model
       model.traverse(function(child) {
         if (child.isMesh) {
-          child.material = silveryMaterial;
+          child.material = metallicGreyMaterial;
           child.castShadow = true;
           child.receiveShadow = true;
         }
