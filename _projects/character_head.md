@@ -57,29 +57,30 @@ window.addEventListener('DOMContentLoaded', function() {
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
-  // Lighting setup
-  const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1);
-  hemiLight.position.set(0, 20, 0);
-  scene.add(hemiLight);
+  // Lighting setup - realistic three-point lighting
+  // 1. Key light (main frontal light)
+  const keyLight = new THREE.DirectionalLight(0xffffff, 1.0);
+  keyLight.position.set(2, 3, 5); // slightly above and front-right
+  keyLight.castShadow = true;
+  keyLight.shadow.mapSize.width = 2048;
+  keyLight.shadow.mapSize.height = 2048;
+  scene.add(keyLight);
 
-  const dirLight = new THREE.DirectionalLight(0xffffff, 0.8);
-  dirLight.position.set(5, 10, 7.5);
-  dirLight.castShadow = true;
-  dirLight.shadow.mapSize.width = 2048;
-  dirLight.shadow.mapSize.height = 2048;
-  scene.add(dirLight);
-
-  // Back light to illuminate the rear of the model
-  const backLight = new THREE.DirectionalLight(0xffffff, 0.5);
-  backLight.position.set(-5, 5, -7.5);
-  backLight.castShadow = false; // Disable shadows for back light to avoid conflicts
-  scene.add(backLight);
-
-  // Optional: Add a subtle fill light from the side
-  const fillLight = new THREE.DirectionalLight(0xffffff, 0.3);
-  fillLight.position.set(-8, 3, 2);
+  // 2. Fill light (softens shadows)
+  const fillLight = new THREE.DirectionalLight(0xffffff, 0.4);
+  fillLight.position.set(-2, 1.5, 3); // front-left
   fillLight.castShadow = false;
   scene.add(fillLight);
+
+  // 3. Rim / back light (subtle outline)
+  const rimLight = new THREE.DirectionalLight(0xffffff, 0.3);
+  rimLight.position.set(0, 3, -5); // behind model
+  rimLight.castShadow = false;
+  scene.add(rimLight);
+
+  // Optional ambient light for soft overall illumination
+  const ambient = new THREE.AmbientLight(0xffffff, 0.2);
+  scene.add(ambient);
 
   // Controls setup
   const controls = new OrbitControls(camera, renderer.domElement);
@@ -113,104 +114,71 @@ window.addEventListener('DOMContentLoaded', function() {
 
   // Model loading
   const loader = new GLTFLoader();
-
   const dracoLoader = new DRACOLoader();
   dracoLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5.6/');
   loader.setDRACOLoader(dracoLoader);
   
-  // Get base URL for GitHub Pages
   const baseUrl = '{{ site.baseurl | default: "" }}';
   const modelPath = `${baseUrl}/assets/models/character_head.glb`;
-  
-  console.log('Loading model from:', modelPath);
   
   loader.load(
     modelPath,
     function(gltf) {
-      console.log('Model loaded successfully:', gltf);
-      
       const model = gltf.scene;
       
-      // Calculate bounding box to center and scale the model
+      // Center and scale model
       const box = new THREE.Box3().setFromObject(model);
       const size = box.getSize(new THREE.Vector3());
       const center = box.getCenter(new THREE.Vector3());
-      
-      // Scale model to fit in scene
       const maxDimension = Math.max(size.x, size.y, size.z);
-      const scale = 2 / maxDimension; // Scale to fit in 2 units
+      const scale = 2 / maxDimension;
       model.scale.setScalar(scale);
-      
-      // Center the model
       model.position.copy(center).multiplyScalar(-scale);
       
-      // Create metallic grey material
-      const metallicGreyMaterial = new THREE.MeshStandardMaterial({
-        color: 0xC5C5C5,        // Medium grey base color
-        metalness: 0.7,         // High metallic property
-        roughness: 0.3,         // Low roughness for shiny metal
-        envMapIntensity: 1.0    // Environment reflection intensity
+      // Matte skin material
+      const skinMaterial = new THREE.MeshStandardMaterial({
+        color: 0xE0B69C, // light skin tone
+        metalness: 0.0,  // non-metallic
+        roughness: 0.8   // matte
       });
       
-      // Apply material and enable shadows for model
       model.traverse(function(child) {
         if (child.isMesh) {
-          child.material = metallicGreyMaterial;
+          child.material = skinMaterial;
           child.castShadow = true;
           child.receiveShadow = true;
         }
       });
       
       scene.add(model);
-      
-      // Remove debug cube when model loads
       scene.remove(debugCube);
-      
-      // Hide loading indicator
       loadingIndicator.style.display = 'none';
-      
-      console.log('Model added to scene');
     },
-    function(progress) {
-      console.log('Loading progress:', (progress.loaded / progress.total * 100) + '%');
-    },
+    function(progress) {},
     function(error) {
-      console.error('Error loading model:', error);
-      
-      // Hide loading indicator and show error message
       loadingIndicator.style.display = 'none';
       errorMessage.style.display = 'block';
-      errorMessage.innerHTML = `
-        Failed to load 3D model<br>
-        <small style="font-size: 12px;">Check console for details<br>
-        Expected path: ${modelPath}</small>
-      `;
     }
   );
 
-  // Handle window resize
+  // Handle resize
   function onWindowResize() {
     camera.aspect = container.clientWidth / container.clientHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(container.clientWidth, container.clientHeight);
   }
-  
   window.addEventListener('resize', onWindowResize, false);
 
   // Animation loop
   function animate() {
     requestAnimationFrame(animate);
-    
-    // Rotate debug cube if still visible
     if (debugCube.parent) {
       debugCube.rotation.x += 0.01;
       debugCube.rotation.y += 0.01;
     }
-    
     controls.update();
     renderer.render(scene, camera);
   }
-  
   animate();
 });
 </script>
