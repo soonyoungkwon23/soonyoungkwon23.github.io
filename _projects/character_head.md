@@ -79,7 +79,7 @@ window.addEventListener('DOMContentLoaded', function() {
   scene.add(rimLight);
 
   // Optional ambient light for soft overall illumination
-  const ambient = new THREE.AmbientLight(0xffffff, 0.2);
+  const ambient = new THREE.AmbientLight(0xffffff, 0.8);
   scene.add(ambient);
 
   // Controls setup
