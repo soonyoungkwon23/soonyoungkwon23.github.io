@@ -24,6 +24,7 @@ category: CAD + Blender Modeling
 <script type="module">
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 window.addEventListener('DOMContentLoaded', function() {
@@ -112,6 +113,10 @@ window.addEventListener('DOMContentLoaded', function() {
 
   // Model loading
   const loader = new GLTFLoader();
+
+  const dracoLoader = new DRACOLoader();
+  dracoLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5.6/');
+  loader.setDRACOLoader(dracoLoader);
   
   // Get base URL for GitHub Pages
   const baseUrl = '{{ site.baseurl | default: "" }}';
