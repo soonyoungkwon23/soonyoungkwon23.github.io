@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: young_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Soph Eng Student @ HMC,</p>
