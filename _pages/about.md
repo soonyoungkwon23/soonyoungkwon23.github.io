@@ -26,9 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<p style="text-align:center; margin: 1.5em 0;">
+<p style="text-align:left; margin: 1.5em 0;">
   <a href="https://soonyoungkwon23.github.io/projects/" 
-     style="background-color:#007acc; color:white; padding:10px 16px; 
+     style="background-color:#007cc2; color:white; padding:10px 16px; 
             text-decoration:none; font-weight:900; font-size:0.95rem; 
             border-radius:6px; display:inline-block; letter-spacing:0.5px;">
     CHECK OUT MY PROJECTS HERE
