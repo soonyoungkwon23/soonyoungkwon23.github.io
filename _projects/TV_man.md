@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Character Head with Blender
+title: TV Man with Blender
 description: A CAD + Blender modeling project
-img: assets/img/character_head.jpg
+img: assets/img/TV_man.png
 importance: 2
 category: CAD + Blender Modeling
 ---
@@ -115,7 +115,7 @@ window.addEventListener('DOMContentLoaded', function() {
   loader.setDRACOLoader(dracoLoader);
   
   const baseUrl = '{{ site.baseurl | default: "" }}';
-  const modelPath = `${baseUrl}/assets/models/character_head.glb`;
+  const modelPath = `${baseUrl}/assets/models/TV_man.gltf`;
   
   loader.load(
     modelPath,
@@ -179,8 +179,8 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-**Created:** July 17, 2025 | **Inspired by:** Grant Abbitt  
+**Created:** June 7, 2025 | **Inspired by:** Grant Abbitt  
 
-A detailed 3D model a character head originally designed by Grant Abbitt, emphasizing **sculpting, modeling, and creavtivity on Blender**. Developed with **Blender 4.4**.
+A smooth and fully rendered 3D model a walking TV man originally designed by Grant Abbitt, emphasizing **smooth designs and rendering on Blender**. Developed with **Blender 4.4**.
 
-> *Note: Could benefit from full material and color rendering.*
+> *Note: Could benefit from additonal rendering effects.*
