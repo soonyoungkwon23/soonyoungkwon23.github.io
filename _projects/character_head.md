@@ -65,7 +65,7 @@ window.addEventListener('DOMContentLoaded', function() {
   scene.add(keyLight);
   
   // 2. Fill light (softer, from right side)
-  const fillLight = new THREE.DirectionalLight(0xffffff, 0.4);
+  const fillLight = new THREE.DirectionalLight(0xffffff, 0.3);
   fillLight.position.set(-5, -2, 2); // opposite side
   scene.add(fillLight);
   
