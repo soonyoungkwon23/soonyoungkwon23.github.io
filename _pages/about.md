@@ -26,7 +26,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## [CHECK OUT MY PROJECTS HERE](https://soonyoungkwon23.github.io/projects/)
+<p style="text-align:center; margin: 1.5em 0;">
+  <a href="https://soonyoungkwon23.github.io/projects/" 
+     style="background-color:#007acc; color:white; padding:10px 16px; 
+            text-decoration:none; font-weight:900; font-size:0.95rem; 
+            border-radius:6px; display:inline-block; letter-spacing:0.5px;">
+    CHECK OUT MY PROJECTS HERE
+  </a>
+</p>
 
 My name is **Soon Young Kwon** (just **Young** is fine!), and I’m a `Mechanical Engineering & Materials Science` student at [`Harvey Mudd College`](https://www.hmc.edu/) with a passion for robotics, automotives, consumable tech, human-centered design, and humanitarian technology.
 
