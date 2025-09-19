@@ -60,18 +60,18 @@ window.addEventListener('DOMContentLoaded', function() {
   // Lighting setup - realistic three-point lighting
   // 1. Key light (main light from left side)
   const keyLight = new THREE.DirectionalLight(0xffffff, 1.0);
-  keyLight.position.set(-5, 3, 2); // moved to left
+  keyLight.position.set(5, -3, 2); // moved to left
   keyLight.castShadow = true;
   scene.add(keyLight);
   
   // 2. Fill light (softer, from right side)
   const fillLight = new THREE.DirectionalLight(0xffffff, 0.4);
-  fillLight.position.set(5, 2, 2); // opposite side
+  fillLight.position.set(-5, -2, 2); // opposite side
   scene.add(fillLight);
   
   // 3. Rim / back light (from top-right behind)
   const rimLight = new THREE.DirectionalLight(0xffffff, 0.3);
-  rimLight.position.set(3, 6, -4); 
+  rimLight.position.set(-3, -6, -4); 
   scene.add(rimLight);
   
   // Ambient stays the same
