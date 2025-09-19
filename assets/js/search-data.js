@@ -620,6 +620,11 @@ ninja.data = [{
           title: 'Character Head with Blender',
           description: "A CAD + Blender modeling project",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/TV_man/";
+            },},{id: "projects-character-head-with-blender",
+          title: 'Character Head with Blender',
+          description: "A CAD + Blender modeling project",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/character_head/";
             },},{
         id: 'social-email',
