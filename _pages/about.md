@@ -26,8 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my engineering portfolio! 
-
 ## [CHECK OUT MY PROJECTS HERE](https://soonyoungkwon23.github.io/projects/)
 
 My name is **Soon Young Kwon** (just **Young** is fine!), and I’m a `Mechanical Engineering & Materials Science` student at [`Harvey Mudd College`](https://www.hmc.edu/) with a passion for robotics, automotives, consumable tech, human-centered design, and humanitarian technology.
