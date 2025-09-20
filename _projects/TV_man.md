@@ -121,9 +121,7 @@ window.addEventListener('DOMContentLoaded', function() {
       const scale = 2 / maxDimension;
       model.scale.setScalar(scale);
       model.position.copy(center).multiplyScalar(-scale);
-      
-      });
-      
+            
       model.traverse(function(child) {
         if (child.isMesh) {
           child.castShadow = true;
