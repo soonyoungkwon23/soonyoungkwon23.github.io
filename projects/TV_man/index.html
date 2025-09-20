@@ -102,15 +102,6 @@ window.addEventListener('DOMContentLoaded', function() {
   debugCube.receiveShadow = true;
   scene.add(debugCube);
 
-  // Ground plane
-  const groundGeometry = new THREE.PlaneGeometry(10, 10);
-  const groundMaterial = new THREE.MeshLambertMaterial({ color: 0xcccccc });
-  const ground = new THREE.Mesh(groundGeometry, groundMaterial);
-  ground.rotation.x = -Math.PI / 2;
-  ground.position.y = -1;
-  ground.receiveShadow = true;
-  scene.add(ground);
-
   // Model loading
   const loader = new GLTFLoader();
   const dracoLoader = new DRACOLoader();
@@ -134,16 +125,10 @@ window.addEventListener('DOMContentLoaded', function() {
       model.scale.setScalar(scale);
       model.position.copy(center).multiplyScalar(-scale);
       
-      // Matte skin material
-      const skinMaterial = new THREE.MeshStandardMaterial({
-        color: 0xE0B69C, // light skin tone
-        metalness: 0.0,  // non-metallic
-        roughness: 0.8   // matte
       });
       
       model.traverse(function(child) {
         if (child.isMesh) {
-          child.material = skinMaterial;
           child.castShadow = true;
           child.receiveShadow = true;
         }
